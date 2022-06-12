@@ -1,6 +1,6 @@
 # Backend-Assignment-FamPay
 
-## Problem Statement :
+## Problem Statement:
 <details>
   <summary>Click to expand!</summary>
 
