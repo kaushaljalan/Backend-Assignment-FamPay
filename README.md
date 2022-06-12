@@ -1,6 +1,6 @@
-# Fampay-Backend-Assignment-GitHub-Externship
+# Backend-Assignment-FamPay
 
-## Problem Statement:
+## Problem Statement :
 <details>
   <summary>Click to expand!</summary>
 
@@ -23,7 +23,6 @@
 * Try and keep your commit messages clean, and leave comments explaining what you are doing wherever it makes sense.
 * Also try and use meaningful variable/function names, and maintain indentation and code style.
 * Submission should have a README file containing instructions to run the server and test the API.
-* Submission should be done on GitHub Externship Portal.
 
 
 ### Reference:
@@ -36,7 +35,7 @@ Without publishedAfter, it will give you cached results which will be too old
 
 ## How it Works
 
-![img](https://github.com/programmer290399/Fampay-Backend-Assignment-GitHub-Externship/raw/docker-branch/images/main-architecture.png)
+![img](https://github.com/kaushaljalan/Backend-Assignment-FamPay/raw/docker-branch/images/main-architecture.png)
 
 * When a client requests data from django, using our REST API, we read the DB for latest data and send back a paginated JSON response.
 * In the background, in django we have scheduled a periodic task which is send to Redis and Celery can read that task from it.
@@ -49,8 +48,8 @@ Without publishedAfter, it will give you cached results which will be too old
 
 ```bash
   # Clone the repository
-  $ git clone git@github.com:programmer290399/Fampay-Backend-Assignment-GitHub-Externship.git
-  $ cd Fampay-Backend-Assignment-GitHub-Externship/
+  $ git clone git@github.com:kaushaljalan/Backend-Assignment-FamPay.git
+  $ cd Backend-Assignment-FamPay/
   # Checkout to docker branch
   $ git checkout docker-branch
   # Change permission on entrypoint.sh
@@ -73,8 +72,8 @@ Without publishedAfter, it will give you cached results which will be too old
 
   ```bash
   # Clone the repository
-  $ git clone git@github.com:programmer290399/Fampay-Backend-Assignment-GitHub-Externship.git
-  $ cd Fampay-Backend-Assignment-GitHub-Externship/
+  $ git clone git@github.com:kaushaljalan/Backend-Assignment-FamPay.git
+  $ cd Backend-Assignment-FamPay/
   # Create a virtual env and install python dependencies
   $ python3.7 -m venv .venv 
   $ . .venv/bin/activate
